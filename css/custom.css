@@ -1,14 +1,30 @@
-.jumbotron{
-    margin-top: 60px;
-	background-image: url("../img/jumbotron_alt.jpg");
-	background-position: right center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 0;
-    padding-bottom: 30%;
+#main-nav {
+    background-color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 60px;
 }
 
-.jumbotron h1{
+.navbar-nav li{
+    font-weight: 300;
+    padding: 5px;
+}
+
+.navbar-nav li:last-child {
+    margin-right: 20px;
+}
+
+#title {
+	background-image: url("../img/jumbotron_alt.jpg");
+	background-position: right 30%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 25%
+}
+
+#title h1{
 	color: white;
 /*	text-shadow: 0px 0px 5px black;*/
     text-align: center;
@@ -51,18 +67,4 @@ h1, h2, h3, h4, h5, h6, p, div{
     font-family: "raleway";
 }
 
-#main-nav {
-    background-color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    height: 60px;
-}
 
-.navbar-nav li{
-    font-weight: 300;
-    padding: 5px;
-}
-
-.navbar-nav li:last-child {
-    margin-right: 20px;
-}
