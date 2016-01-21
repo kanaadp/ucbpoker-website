@@ -1,6 +1,6 @@
 .jumbotron{
 	background-image: url("../img/jumbotron.jpg");
-	background-position: right center;
+	background-position: right center fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
     padding-bottom: 17rem;
@@ -13,4 +13,12 @@
 
 h1, h2, h3, h4, h5, h6, p, div{
     font-family: "raleway";
+}
+
+#main {
+	position: relative;
+}
+
+#title {
+	position: relative;
 }
