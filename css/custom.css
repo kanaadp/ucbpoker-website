@@ -10,13 +10,41 @@
 
 .jumbotron h1{
 	color: white;
-	text-shadow: 0px 0px 5px black;
+/*	text-shadow: 0px 0px 5px black;*/
     text-align: center;
-    letter-spacing: 30px;
+    letter-spacing: 10px;
     text-transform: uppercase;
+    font-weight: 600;
     font-size: 5rem;
     margin-top: 10rem;
-    font-family: "open sans";
+    font-family: "josefin sans";
+}
+
+.jumbotron p{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.button{
+    padding: 15px 50px;
+    border: 3px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in; 
+}
+
+.button:hover {
+	background-color: white;
+    color: #111 ;
+	cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6, p, div{
