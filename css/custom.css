@@ -1,14 +1,22 @@
 .jumbotron{
-	background-image: url("../img/jumbotron.jpg");
-	background-position: right center fixed;
+    margin-top: 60px;
+	background-image: url("../img/jumbotron_alt.jpg");
+	background-position: right center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    padding-bottom: 17rem;
+    height: 0;
+    padding-bottom: 30%;
 }
 
 .jumbotron h1{
 	color: white;
-	text-shadow: 0px 0px 5px black ;
+	text-shadow: 0px 0px 5px black;
+    text-align: center;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top: 10rem;
+    font-family: "open sans";
 }
 
 h1, h2, h3, h4, h5, h6, p, div{
@@ -22,3 +30,20 @@ h1, h2, h3, h4, h5, h6, p, div{
 #title {
 	position: relative;
 }
+
+#main-nav {
+    background-color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 60px;
+}
+
+.navbar-nav li{
+    font-weight: 300;
+    padding: 5px;
+}
+
+.navbar-nav li:last-child {
+    margin-right: 20px;
+}
+
