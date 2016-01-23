@@ -2,7 +2,7 @@
     background-color: #fff;
     font-size: 14px;
     text-transform: uppercase;
-    height: 60px;
+    min-height: 60px;
 }
 
 .navbar-nav li{
