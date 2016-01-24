@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p, div{
   padding-top: 4rem;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 15rem;
+  height: auto;
   background-color: #2B3856;
 }
 
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p, div{
     -ms-transition:color .2s ease-out, background 1s ease-in;
     -moz-transition:color .2s ease-out, background 1s ease-in;
     -webkit-transition:color .2s ease-out, background 1s ease-in;
-    transition: color .5s ease-out, background .5s ease-in; 
+    transition: color .2s ease-out, background .2s ease-in; 
 }
 
 .footer p {
