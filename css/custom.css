@@ -68,10 +68,6 @@ h1, h2, h3, h4, h5, h6, p, div{
     font-family: "raleway";
 }
 
-<<<<<<< HEAD
-.title {
-    text-align: center;
-=======
 .footer {
   padding-top: 4rem;
   width: 100%;
@@ -92,8 +88,6 @@ h1, h2, h3, h4, h5, h6, p, div{
 
 .footer p {
   text-align: center;
-
->>>>>>> cecfee3e9b5dd039418a2207298d328288e0b94b
 }
 
 
