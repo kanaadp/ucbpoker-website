@@ -15,26 +15,70 @@
 }
 
 #title {
-	background-image: url("../img/jumbotron_alt.jpg");
-	background-position: right 30%;
+/*	background-image: url("../img/jumbotron_alt.jpg");*/
+    background: linear-gradient( rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7) ), url("../img/jumbotron_alt.jpg");
+	  background-position: right 30%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: auto;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
     margin-bottom: 2%;
 }
 
 #title h1{
-	color: white;
+	color: #dabd92;
     text-align: center;
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 5rem;
-    margin-top: 20rem;
-    font-family: "josefin sans";
-    text-shadow: 0px 0px 10px black ;
+    font-size: 8rem;
+    margin-top: 17rem;
+    font-family: "Playfair Display";
+    
+/*    spacing    */
+    margin-bottom: 6rem;
+    
+/*    text-shadow: 0px 0px 5px #ababab ;*/  
+}
+
+#title h2{
+    text-align: center;
+    color: #dabd92;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 10rem;
+    
+/*    spacing   */
+    margin-top: 6rem;
+}
+
+#title h3 {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    color: #dabd92;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#title .space{
+    height: 1.5rem;
+}
+
+#title hr {
+    width: 20%;
+    background-color:#dabd92;
+    height: 4px;
+    border-color: none;
+}
+
+#title .one{
+    margin-left: 80%;
+}
+
+#title .two{
+    margin-right: 80%;
 }
 
 #title p{
