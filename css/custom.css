@@ -52,12 +52,10 @@
 /*	background-image: url("../img/jumbotron_alt.jpg");*/
     background: linear-gradient( rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7) ), url("../img/jumbotron_alt.jpg");
 	  background-position: right 30%;
-    padding-top: 5%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 /*    height: auto;*/
-    padding-bottom: 15%;
 }
 
 #title h1{
@@ -67,7 +65,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 6vw;
-    margin-top: 15vw;
+    margin-top: 18vw;
     font-family: "Playfair Display";
     
 /*    spacing    */
@@ -97,7 +95,7 @@
 }
 
 #title .space{
-    height: 1.5rem;
+    height: .9vw;
 }
 
 #title hr {
@@ -117,7 +115,7 @@
 
 #title p{
     text-align: center;
-    margin-top: 10rem;
+    margin: 6vw 0 15vw;
 }
 
 .content{
@@ -145,7 +143,7 @@
 
 
 .button{
-    padding: 15px 50px;
+    padding: 1.5vw 5vw;
     border: 3px solid #dabd92;
     color: #dabd92;
     text-transform: uppercase;
