@@ -51,6 +51,21 @@
 }
 
 
+.officers .row{
+    padding-top: 1rem;
+}
+
+.img > .profile{
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.profile-right h3, .profile-right h4 {
+    text-align: right;
+}
+
+
 .button{
     padding: 15px 50px;
     border: 3px solid #fff;
