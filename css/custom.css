@@ -1,14 +1,46 @@
 #main-nav {
     background-color: #333;
     font-size: 14px;
-    text-transform: uppercase;
-    min-height: 60px;
-    border-bottom: 3px solid #f3525a;
+    border-bottom: 3px solid #961E3C;
+}
+
+#main-nav .logo {
+    padding: 10px;
+}
+
+#main-nav img{
+    height: 40px;
+    margin-left: 15px;
 }
 
 .navbar-nav li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
     font-weight: 300;
     padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;   
+    -o-transition: color .2s ease-out, background .7s ease-in;
+    -ms-transition: color .2s ease-out, background .7s ease-in;
+    -moz-transition: color .2s ease-out, background .7s ease-in;
+    -webkit-transition: color .2s ease-out, background .7s ease-in;
+    transition: color .5s ease-out, background .7s ease-in;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #dabd92;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #dabd92;
+}
+
+.navbar-nav li:hover{
+    background: #961E3C;
+    cursor: pointer;
+    font-weight: 500;
+    color: #dabd92 !important;
 }
 
 .navbar-nav li:last-child {
@@ -19,12 +51,12 @@
 /*	background-image: url("../img/jumbotron_alt.jpg");*/
     background: linear-gradient( rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7) ), url("../img/jumbotron_alt.jpg");
 	  background-position: right 30%;
+    padding-top: 5%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: auto;
-    padding-bottom: 10%;
-    margin-bottom: 2%;
+/*    height: auto;*/
+    padding-bottom: 15%;
 }
 
 #title h1{
@@ -87,10 +119,34 @@
     margin-top: 10rem;
 }
 
+.content{
+    margin-top: 80px;
+}
+
+.about{
+    margin-bottom: 1rem;
+}
+
+
+.officers .row{
+    padding-top: 1rem;
+}
+
+.img > .profile{
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.profile-right h3, .profile-right h4 {
+    text-align: right;
+}
+
+
 .button{
     padding: 15px 50px;
-    border: 3px solid #fff;
-    color: #fff;
+    border: 3px solid #dabd92;
+    color: #dabd92;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-decoration: none;
@@ -98,15 +154,21 @@
     -ms-transition:color .2s ease-out, background 1s ease-in;
     -moz-transition:color .2s ease-out, background 1s ease-in;
     -webkit-transition:color .2s ease-out, background 1s ease-in;
-    transition: color .5s ease-out, background .5s ease-in; 
+    transition: color .2s ease-out, background 1s ease-in; 
+    -o-transition:border .2s ease-out, background 1s ease-in;
+    -ms-transition:border .2s ease-out, background 1s ease-in;
+    -moz-transition:border .2s ease-out, background 1s ease-in;
+    -webkit-transition:border .2s ease-out, background 1s ease-in;
+    transition: border .2s ease-out, background 1s ease-in; 
 }
 
 .button:hover {
-	background-color: white;
-    color: #111 ;
-	cursor: pointer;
+/*	background-color: #fff;*/
+    color: #f3525a ;
+	  cursor: pointer;
     text-decoration: none;
     font-weight: 600;
+    border: 3px solid #f3525a;
 }
 
 h1, h2, h3, h4, h5, h6, p, div{
@@ -118,7 +180,8 @@ h1, h2, h3, h4, h5, h6, p, div{
   width: 100%;
   /* Set the fixed height of the footer here */
   height: auto;
-  background-color: #2B3856;
+  background-color: #333;
+  padding-bottom: 3rem;
 }
 
 .social {
@@ -134,5 +197,7 @@ h1, h2, h3, h4, h5, h6, p, div{
 .footer p {
   text-align: center;
 }
+
+
 
 
