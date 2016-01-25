@@ -1,3 +1,7 @@
+#title {
+    margin-top: 40px;
+    
+}
 #main-nav {
     background-color: #333;
     font-size: 14px;
@@ -64,12 +68,12 @@
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 6vw;
-    margin-top: 18vw;
+    font-size: 4vw;
+    margin-top: 8vw;
     font-family: "Playfair Display";
     
 /*    spacing    */
-    margin-bottom: 5vw;
+    margin-bottom: 4vw;
     
 /*    text-shadow: 0px 0px 5px #ababab ;*/  
 }
@@ -80,7 +84,7 @@
     font-family: "Josefin Sans";
     text-transform: uppercase;
     letter-spacing: 20px;
-    font-size: 8vw;
+    font-size: 5vw;
     
 /*    spacing   */
     margin-top: 5vw;
@@ -91,7 +95,7 @@
     font-style: italic;
     color: #dabd92;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 #title .space{
@@ -101,7 +105,7 @@
 #title hr {
     width: 20%;
     background-color:#dabd92;
-    height: 4px;
+    height: 3px;
     border-color: none;
 }
 
@@ -115,7 +119,7 @@
 
 #title p{
     text-align: center;
-    margin: 6vw 0 15vw;
+    margin: 6vw 0 10vw;
 }
 
 .content{
@@ -175,12 +179,13 @@ h1, h2, h3, h4, h5, h6, p, div{
 }
 
 .footer {
-  padding-top: 4rem;
+  padding-top: 4vw;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: auto;
   background-color: #333;
-  padding-bottom: 3rem;
+  padding-bottom: 3vw;
+  font-size: 1.25vw;    
 }
 
 .social {
