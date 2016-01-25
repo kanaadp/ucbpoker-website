@@ -1,8 +1,9 @@
 #main-nav {
-    background-color: #fff;
+    background-color: #333;
     font-size: 14px;
     text-transform: uppercase;
     min-height: 60px;
+    border-bottom: 3px solid #f3525a;
 }
 
 .navbar-nav li{
