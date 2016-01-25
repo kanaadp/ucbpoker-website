@@ -15,14 +15,14 @@
 }
 
 #title {
+    padding-top:10%;
 	background-image: url("../img/jumbotron_alt.jpg");
 	background-position: right 30%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: auto;
-    padding-bottom: 15%;
-    margin-bottom: 2%;
+    padding-bottom: 20%;
 }
 
 #title h1{
@@ -41,6 +41,15 @@
     text-align: center;
     margin-top: 10rem;
 }
+
+.content{
+    margin-top: 80px;
+}
+
+.about{
+    margin-bottom: 1rem;
+}
+
 
 .button{
     padding: 15px 50px;
@@ -74,6 +83,7 @@ h1, h2, h3, h4, h5, h6, p, div{
   /* Set the fixed height of the footer here */
   height: auto;
   background-color: #2B3856;
+  padding-bottom: 3rem;
 }
 
 .social {
@@ -90,5 +100,7 @@ h1, h2, h3, h4, h5, h6, p, div{
   text-align: center;
 
 }
+
+
 
 
