@@ -5,12 +5,13 @@
 }
 
 #main-nav .logo {
-    padding: 10px;
+    padding: 0;
 }
 
 #main-nav img{
-    height: 40px;
+    height: 100%;
     margin-left: 15px;
+    margin-top: 5px;
 }
 
 .navbar-nav li{
@@ -65,12 +66,12 @@
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 8rem;
-    margin-top: 17rem;
+    font-size: 6vw;
+    margin-top: 15vw;
     font-family: "Playfair Display";
     
 /*    spacing    */
-    margin-bottom: 6rem;
+    margin-bottom: 5vw;
     
 /*    text-shadow: 0px 0px 5px #ababab ;*/  
 }
@@ -81,10 +82,10 @@
     font-family: "Josefin Sans";
     text-transform: uppercase;
     letter-spacing: 20px;
-    font-size: 10rem;
+    font-size: 8vw;
     
 /*    spacing   */
-    margin-top: 6rem;
+    margin-top: 5vw;
 }
 
 #title h3 {
@@ -92,7 +93,7 @@
     font-style: italic;
     color: #dabd92;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3vw;
 }
 
 #title .space{
