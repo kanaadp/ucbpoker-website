@@ -36,6 +36,15 @@ a:focus {
     color: #000;
 }
 
+.bg-dark a{
+    color: #FFF;
+}
+
+.bg-dark a:hover,
+.bg-dark a:focus {
+    color: #dabd92;
+}
+
 h1,
 h2,
 h3,
@@ -51,6 +60,9 @@ p {
     line-height: 1.5;
 }
 
+.font-primary {
+    color: #961E3C;
+}
 .bg-primary {
     background-color: #961E3C;
 }
@@ -388,6 +400,11 @@ header .header-content .header-content-inner h1:last-of-type {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.social {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .social:hover{
